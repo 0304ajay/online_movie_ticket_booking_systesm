@@ -40,7 +40,7 @@ def LoggedIn_Clicked(userName, password):
         st.session_state['name'] = name
     else:
         st.session_state['loggedIn'] = False
-        st.error("Invalid user name or password")
+        st.error("Invalid user name or password") 
     
 def show_login_page():   #For Login Page
     with loginSection:
